@@ -1,0 +1,43 @@
+{
+  "Hero": {
+    "title1": "Sciences",
+    "title2": "De la vie et de la terre",
+    "title3": "20",
+    "description": "Une collection de cours, exercices, examens et quiz. Si vous avez des questions, suggestions ou remarques, veuillez les laisser dans les commentaires"
+  },
+  "SocialProof": {
+    "maker": "L'apprentissage est un voyage, pas une destination."
+  },
+  "Feature": {
+    "title": "Fonctionnalités"
+  },
+  "Pricing": {
+    "title": "Prix",
+    "title2": "Obtenez un accès illimité.",
+    "description": "La page que vous consultez actuellement est un modèle open-source et gratuit.",
+    "doYouLike": "Aimez-vous ce modèle de page de destination ?",
+    "follow": "Suivez mon Twitter."
+  },
+  "WallOfLove": {
+    "title": "Mur de l'amour",
+    "description1": "Si vous utilisez ce modèle de page de destination et le recommandez sur votre Twitter,",
+    "description2": "veuillez me le faire savoir",
+    "description3": ". J'afficherai votre tweet et votre recommandation ici."
+  },
+  "FAQ": {
+    "title": "FAQ",
+    "description": "Voici quelques-unes des questions les plus fréquemment posées."
+  },
+  "CTA": {
+    "title": "Créez votre page de destination maintenant",
+    "description1": "Créez",
+    "description2": "votre page de destination,",
+    "description3": "présentez",
+    "description4": "votre produit et",
+    "description5": "commencez à gagner",
+    "description6": "!"
+  },
+  "CTAButton": {
+    "title": "Obtenir le modèle"
+  }
+}

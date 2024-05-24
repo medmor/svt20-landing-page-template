@@ -1,0 +1,41 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "headwind.runOnSave": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "commentTranslate.source": "Bing",
+  "cSpell.words": ["contentlayer", "lemonsqueezy"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".next": true,
+    ".vscode": true,
+    "node_modules": true,
+    ".editorconfig": true,
+    ".env.example": true,
+    ".eslintrc.json": true,
+    ".gitignore": true,
+    ".npmrc": true,
+    "components.json": true,
+    "i18n.ts": true,
+    "next-env.d.ts": true,
+    "next.config.mjs": true,
+    "next-sitemap.config.js": true,
+    "pnpm-lock.yaml": true,
+    "postcss.config.js": true,
+    "tsconfig.json": true
+  },
+  "explorerExclude.backup": {}
+}
+
