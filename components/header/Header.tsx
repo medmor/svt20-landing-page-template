@@ -2,6 +2,7 @@
 import HeaderLinks from "@/components/header/HeaderLinks";
 import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -29,6 +30,7 @@ const links = [
 ];
 
 const Header = () => {
+  const t = useTranslations('Header');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -42,13 +44,13 @@ const Header = () => {
           >
             <Image
               alt={siteConfig.name}
-              src="/logo.svg"
-              className="w-8 h-8"
+              src="/logo.png"
+              className="w-8 h-8 rounded-full"
               width={32}
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              {t('siteName')}
             </span>
           </Link>
         </div>

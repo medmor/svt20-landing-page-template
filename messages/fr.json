@@ -1,4 +1,7 @@
 {
+  "Header": {
+    "siteName": "SVT20"
+  },
   "Hero": {
     "title1": "Sciences",
     "title2": "De la vie et de la terre",
@@ -38,6 +41,6 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Obtenir le modèle"
+    "title": "Commencez par un Quiz"
   }
 }

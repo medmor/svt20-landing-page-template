@@ -15,10 +15,7 @@ const Hero = () => {
           duration: 0.3,
           ease: [0, 0.71, 0.2, 1],
           scale: {
-            type: "tween", // tween spring
-            // damping: 10, // if spring
-            // stiffness: 50, // if spring
-            // restDelta: 0.001, // if spring
+            type: "tween",
           },
         }}
       >
@@ -27,7 +24,7 @@ const Hero = () => {
             {t("title1")} <LineText>{t("title2")}</LineText> {t("title3")}
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
-            {/* {siteConfig.description} */}
+
             {t("description")}
           </p>
         </section>

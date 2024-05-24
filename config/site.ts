@@ -3,7 +3,7 @@ import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
-const OPEN_SOURCE_URL = "https://github.com/weijunext/landing-page-boilerplate";
+const OPEN_SOURCE_URL = "https://github.com/medmor/svt20-landing-page-template";
 
 const baseSiteConfig = {
   name: "SVT20 Landing Page Template",
@@ -17,6 +17,7 @@ const baseSiteConfig = {
     "landing page template",
     "awesome landing page",
     "next.js landing page",
+    "svt20 landing page",
   ],
   authors: [
     {
@@ -26,7 +27,7 @@ const baseSiteConfig = {
     },
   ],
   creator: "@medmor",
-  openSourceURL: "https://github.com/weijunext/landing-page-boilerplate",
+  openSourceURL: "https://github.com/medmor/svt20-landing-page-template",
   themeColors: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },

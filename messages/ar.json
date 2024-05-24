@@ -1,4 +1,7 @@
 {
+  "Header": {
+    "siteName": "SVT20"
+  },
   "Hero": {
     "title1": "",
     "title2": "صفحة الهبوط",
@@ -37,6 +40,7 @@
     "description6": "المال!"
   },
   "CTAButton": {
-    "title": "احصل على القالب"
+    "title": "ابدا باختبار معارفك"
   }
 }
+

@@ -16,13 +16,12 @@ const SocialProof = () => {
                 alt="User"
                 height={40}
                 width={40}
-                className="rounded-full -m-[5px] border border-white"
+                className="rounded-full"
               />
             );
           })}
         </div>
         <p className="text-sm text-slate-700 dark:text-slate-400">
-          <span className="text-primary font-semibold text-base">1000+</span>{" "}
           {t("maker")}
         </p>
       </div>

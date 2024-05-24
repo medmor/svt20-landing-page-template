@@ -1,4 +1,7 @@
 {
+  "Header": {
+    "siteName": "SVT20"
+  },
   "Hero": {
     "title1": "Ship",
     "title2": "Landing Page",
@@ -38,6 +41,7 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Start by a Quiz"
   }
 }
+
