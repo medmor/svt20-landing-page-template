@@ -1,9 +1,10 @@
 import { IconType } from "react-icons";
-import { BiMagnet } from "react-icons/bi";
-import { BsGithub } from "react-icons/bs";
+import { BiCalculator, BiImages, BiMagnet } from "react-icons/bi";
+import { BsBook, BsCheck2All, BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
+import { MdCloudUpload, MdOutlineQuiz } from "react-icons/md";
+import { PiExam } from "react-icons/pi";
 
 export const FEATURES_EN = [
   {
@@ -81,40 +82,36 @@ export const FEATURES_AR = [
 
 export const FEATURES_FR = [
   {
-    title: "Avantage Open Source",
+    title: "Cours",
     content:
-      "Complètement gratuit avec une multitude d'options de personnalisation.",
-    icon: BsGithub, // Icon likely remains the same
+      "Une collection de résumés des cours pour les niveaux : TC, 1BAC et 2BAC.",
+    icon: BsBook,
   },
   {
-    title: "Conception Réactive",
-    content:
-      "Modèles méticuleusement conçus pour assurer un affichage optimal sur tous les appareils.",
-    icon: FaMobileScreenButton, // Icon likely remains the same
+    title: "Exercices",
+    content: "Une collection d'exercices pour les niveaux : TC, 1BAC et 2BAC.",
+    icon: BsCheck2All, // Icon likely remains the same
   },
   {
-    title: "Personnalisation Facile",
-    content:
-      "Changez facilement les couleurs, les polices et les mises en page sans aucune connaissance en codage.",
-    icon: FaToolbox, // Icon likely remains the same
+    title: "Examen",
+    content: "Collection des examen nationaux du 2BAC",
+    icon: PiExam, // Icon likely remains the same
   },
   {
-    title: "Optimisé pour le référencement SEO",
-    content:
-      "Modèles conçus en tenant compte de l'optimisation pour les moteurs de recherche afin d'améliorer la découvrabilité de votre site Web.",
-    icon: BiMagnet, // Icon likely remains the same
+    title: "Quiz",
+    content: "Testez vos connaissances par un ensemble de quiz interactif.",
+    icon: MdOutlineQuiz, // Icon likely remains the same
   },
   {
-    title: "Déploiement en un clic",
-    content:
-      "Intégré de manière étroite aux principaux services d'hébergement Web pour une publication instantanée de votre site Web.",
-    icon: MdCloudUpload, // Icon likely remains the same
+    title: "Figures",
+    content: "L'ensemble des figures des cours.",
+    icon: BiImages, // Icon likely remains the same
   },
   {
-    title: "Prise en charge de la mondialisation",
+    title: "Calculatrice",
     content:
-      "Prend en charge plusieurs langues, rendant votre site Web attrayant pour un public international.",
-    icon: FaEarthAsia, // Icon likely remains the same
+      "La calculatrice du professeur, qui facilite le calcule des notes.",
+    icon: BiCalculator, // Icon likely remains the same
   },
 ];
 
