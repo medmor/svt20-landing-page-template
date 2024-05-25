@@ -8,7 +8,6 @@ import "@/styles/globals.css";
 import "@/styles/loading.css";
 import { Viewport } from "next";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import { Inter as FontSans } from "next/font/google";
 
 export const fontSans = FontSans({
@@ -38,7 +37,13 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = await getMessages();
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    console.log(locale, error);
+  }
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head />
@@ -48,7 +53,7 @@ export default async function RootLayout({
           fontSans.variable
         )}
       >
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"
             defaultTheme={siteConfig.nextThemeColor}
